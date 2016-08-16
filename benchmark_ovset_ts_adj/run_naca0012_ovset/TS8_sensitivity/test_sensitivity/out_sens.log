@@ -1,0 +1,193 @@
+ &INPUTS
+ IREAD   =           0,
+ NUM_GRIDS       =           2,
+ NBLADE  =           1,
+ JMAX    =         109,
+ KMAX    =          36,
+ NHALO   =           2,
+ JTAIL1  =          19,
+ HALF    =           0,
+ NSTEPS  =       15000,
+ NREST   =        1000,
+ NPNORM  =          10,
+ TIMESPECTRAL    = T,
+ NSPEC   =           8,
+ FSMACH  =  0.150000000000000     ,
+ ALFA    =   5.00000000000000     ,
+ REY     =   1000000.00000000     ,
+ INVISC  = F,
+ LAMIN   = F,
+ ITURB   =           1,
+ ITRANS  =           0,
+ IUNST   =           0,
+ MOTIONTYPE      =           1,
+ FSMACH  =  0.150000000000000     ,
+ FMTIP   =  0.000000000000000E+000,
+ RARTIO  =   1.00000000000000     ,
+ ALFA    =   5.00000000000000     ,
+ REY     =   1000000.00000000     ,
+ INVISC  = F,
+ LAMIN   = F,
+ ITURB   =           1,
+ ITRANS  =           0,
+ IUNST   =           0,
+ VNUINF  =   1.00000000000000     ,
+ TUINF   =  0.200000000000000     ,
+ NTAC    =           1,
+ ITNMAX  =           3,
+ DT      =   2.00000000000000     ,
+ DTPSEUDO        =  0.200000000000000     , 99*0.000000000000000E+000  ,
+ CFLTUR  =   1.00000000000000     ,
+ TIMEAC  =  0.000000000000000E+000,
+ EPSE    =  1.000000000000000E-002,
+ IRHSY   =          -3,
+ ILIM    =           1,
+ ILHS    =           3,
+ IDUAL   =           0,
+ IDUAL_TURB      =           0,
+ ICONSTANT_CFL   =           0,
+ IPRECON = F,
+ MP      =   1.00000000000000     ,
+ TOTIME  =  0.000000000000000E+000,
+ RF      =  5.000000000000000E-002,
+ ANG0    =  0.000000000000000E+000,
+ ANGMAX  =   3.00000000000000     ,
+ PHASE   =  0.000000000000000E+000,
+ JINT    =           1,
+ KINT    =           1,
+ STATIC_CONN     = F,
+ FOURBAR_TOGGLE  =  0.000000000000000E+000,
+ AXISYMMETRIC    = F,
+ NMOVIE  =      200000,
+ ISIN    =           0,
+ IDEFORM =           0
+ /
+ &BCINP
+ NBC     =           2,
+ IROT_DIR        =           1,
+ XCEN    =  0.000000000000000E+000,
+ YCEN    =  0.000000000000000E+000,
+ IBTYP   =           5,          51, -1692625024,       32765,   -43321696,       10935,   -43307728,       10935,
+  4*0,   -43330328,       10935, 2*0,   -40074680,       10935,   -40079360,       10935,   -43301754,       10935,   318834520,
+           54,   -43309576,
+ IBDIR   = 2*2,   -43301920,       10935,     4201648,           0,   -43329472,       10935, -1692624976,       32765, -1692624936,
+        32765,   -43330328,       10935,   -40074680,       10935,    -7905106,           0,   310419210,          54,
+  2*0,   -40074680,       10935,           1,
+ JBCS    =          25,           1,   -43330328,       10935,           1,          54, 2*0,           1,       32765,   312611208,
+           54, 2*0,   -43329472,       10935, -1692625056,       32765,   310428546,          54, -1692625032,       32765,
+    312612064,           1, -1692625024,
+ JBCE    =         -25,          25,   319045991,           1,     6422118,           0,     4206045,           0,           1,
+  3*0,   314572800,          54,   325070256,          54,  1103101952,     -313799,           1,           0, -1692623680,
+        32765,   322963561,          54,   318812656,
+ KBCS    = 2*1,   115125334,           0,   -43307728,       10935,           1,           0,           2, 5*0,          64,
+  7*0,           2,          48,          91,
+ KBCE    = 2*1,     8836960,           0,          24,           0,   322502272,          54,           1,           0,     8836896,
+            0,      262146,           0,   319268529,          54,     8836960,           0, -1692624784,       32765,          24,
+            0,     5771737,           0,    12660928
+ /
+ &BCINP
+ NBC     =           4,
+ IROT_DIR        =           0,
+ XCEN    =  0.000000000000000E+000,
+ YCEN    =  0.000000000000000E+000,
+ IBTYP   = 4*47,   -43321696,       10935,   -43307728,       10935, 4*0,   -43330328,       10935, 2*0,   -40074680,       10935,
+    -40079360,       10935,   -43301754,       10935,   318834520,          54,   -43309576,
+ IBDIR   =           2,          -2,           1,          -1,     4201648,           0,   -43329472,       10935, -1692624976,
+        32765, -1692624936,       32765,   -43330328,       10935,   -40074680,       10935,    -7905106,           0,   310419210,
+           54, 2*0,   -40074680,       10935,           1,
+ JBCS    = 3*1,          -1,           1,          54, 2*0,           1,       32765,   312611208,          54,
+  2*0,   -43329472,       10935, -1692625056,       32765,   310428546,          54, -1692625032,       32765,   312612064,
+            1, -1692625024,
+ JBCE    = 2*-1,           1,          -1,     6422118,           0,     4206045,           0,           1, 3*0,   314572800,
+           54,   325070256,          54,  1103101952,     -313799,           1,           0, -1692623680,       32765,   322963561,
+           54,   318812656,
+ KBCS    =           1,          -1, 2*1,   -43307728,       10935,           1,           0,           2, 5*0,          64,
+  7*0,           2,          48,          91,
+ KBCE    =           1, 3*-1,          24,           0,   322502272,          54,           1,           0,     8836896,           0,
+       262146,           0,   319268529,          54,     8836960,           0, -1692624784,       32765,          24,           0,
+      5771737,           0,    12660928
+ /
+  
+ here is your input:
+ restart
+   initial run w/o restart for this case 
+   this run will last until        15000  time steps
+ flow parameters
+   free stream mach number is   0.150000000000000     
+   flow at    5.00000000000000       degrees angle of attack
+   viscous flow
+     reynolds number =    1000000.00000000     
+       turbulent flow
+      Spalart-Allmaras turbulence model
+ time info
+   steady flow 
+   1st order in time 
+   using newton iterations with            3  iterations
+   dt is    2.00000000000000     
+   timeac for jacobian scaling is   0.000000000000000E+000
+ algorithm stuff
+   dissipation for ilu3d is   1.000000000000000E-002
+   3rd order in space 
+   limiting in both directions
+      using muscl with korens differentiable limiter
+   totime =   0.000000000000000E+000
+  
+         151          71          81          81
+ Number of fringe points in mesh           1 is         586
+ Number of fringe points in mesh           2 is         338
+ Number of fringe points in mesh           1 is         586
+ Number of fringe points in mesh           2 is         340
+ Number of fringe points in mesh           1 is         586
+ Number of fringe points in mesh           2 is         342
+ Number of fringe points in mesh           1 is         586
+ Number of fringe points in mesh           2 is         340
+ Number of fringe points in mesh           1 is         586
+ Number of fringe points in mesh           2 is         338
+ Number of fringe points in mesh           1 is         586
+ Number of fringe points in mesh           2 is         340
+ Number of fringe points in mesh           1 is         586
+ Number of fringe points in mesh           2 is         342
+ Number of fringe points in mesh           1 is         586
+ Number of fringe points in mesh           2 is         340
+ im,fsmachb:            1  -57.7726331376524     
+ im,fsmachb:            2  -57.7726331376524     
+ im, uinfb,vinfb, einfb:           1  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000
+ im, uinfb,vinfb, einfb:           1  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000
+ im, uinfb,vinfb, einfb:           1  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000
+ im, uinfb,vinfb, einfb:           1  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000
+ im, uinfb,vinfb, einfb:           1  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000
+ im, uinfb,vinfb, einfb:           1  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000
+ im, uinfb,vinfb, einfb:           1  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000
+ im, uinfb,vinfb, einfb:           1  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000
+ Sensitivities with respect to  ..
+ Freestream      -->  -58.3776541140991     
+ Angle of attack --> -1.860548626132801E-003
+ 
+ im, uinfb,vinfb, einfb:           2  -6.66212721784800     
+  -41.1050949418297       0.112716913128413     
+ im, uinfb,vinfb, einfb:           2  -7.59516108053236     
+  -39.3575287832131       4.900227130973717E-002
+ im, uinfb,vinfb, einfb:           2  -6.43735667964338     
+  -39.9486717024089      -3.416986204760281E-002
+ im, uinfb,vinfb, einfb:           2  -3.63668738948575     
+  -39.9931177252533      -9.241577791671957E-002
+ im, uinfb,vinfb, einfb:           2 -0.798816288673318     
+  -41.5476310620527      -9.388657323478833E-002
+ im, uinfb,vinfb, einfb:           2 -0.224520660538548     
+  -41.5753251698109      -4.262304444013454E-002
+ im, uinfb,vinfb, einfb:           2  -1.18421887619587     
+  -42.0342113993792       4.654726633712108E-002
+ im, uinfb,vinfb, einfb:           2  -3.78482923487253     
+  -42.5954091017950       0.116673108888979     
+ Sensitivities with respect to  ..
+ Freestream      -->  0.422168910922017     
+ Angle of attack -->  0.847064197942491     
+ 

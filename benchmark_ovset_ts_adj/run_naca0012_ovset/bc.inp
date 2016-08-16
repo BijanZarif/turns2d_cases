@@ -1,0 +1,19 @@
+$BCINP
+     NBC   =   2,
+     IBTYP =   5, 51,
+     IBDIR =   2,  2,
+     JBCS  =  25,  1,
+     JBCE  = -25, 25,
+     KBCS  =   1,  1,
+     KBCE  =   1,  1,
+$END
+$BCINP
+     IROT_DIR = 0,
+     NBC   = 4,
+     IBTYP =  47, 47, 47, 47,
+     IBDIR =   2, -2,  1, -1,
+     JBCS  =   1,  1,  1, -1,
+     JBCE  =  -1, -1,  1, -1,
+     KBCS  =   1, -1,  1,  1,
+     KBCE  =   1, -1, -1, -1,
+$END
